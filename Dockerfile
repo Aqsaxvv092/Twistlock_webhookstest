@@ -1,5 +1,5 @@
 FROM ubuntu:latest
 MAINTAINER Aqsa
-RUN sudo apt-get update
-RUN sudo apt-get install nano
+RUN apt-get update
+RUN apt-get install nano
 CMD ["php", "-a"]
